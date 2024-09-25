@@ -1,0 +1,17 @@
+apiVersion: v1
+kind: pod 
+metadata:
+ name: annotations-demo
+ labels:
+  environment: dev
+  app: nginx 
+ annotations:
+   imageregistry: "https://hub.docker.com/"
+   com.project: "devops"
+
+spec:
+  containers: 
+    - name: annotations-demo
+      image: nginx
+      ports:
+         - containerport: 80
