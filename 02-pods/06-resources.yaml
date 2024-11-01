@@ -9,11 +9,11 @@ spec:
       image: nginx
       # here with this line port will not opened , just for information
       ports:
-    - containerPort: 80
-       resources:
-         request:
-          memory: "250mi"  
-          cpu: "100m"   
-         limits:
-          memory: "500mi"
-          cpu: "200m"
+       - containerPort: 80
+      resources:
+          request:
+           memory: "250mi"  
+           cpu: "100m"   
+          limits:
+           memory: "500mi"
+           cpu: "200m"
