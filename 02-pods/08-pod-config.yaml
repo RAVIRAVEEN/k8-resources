@@ -25,10 +25,10 @@ spec:
 apiVersion: v1
 kind: Pod 
 metadata:
- name: hello-pod-5
+ name: hello-pod-6
 spec:
   containers: 
-  - name: hello-pod-5
+  - name: hello-pod-6
     image: nginx
     ports:
     - containerPort: 80
