@@ -9,13 +9,12 @@ spec:
     ports:
     - containerPort: 80
     env: 
-      - name: hello-pod-2
+      - name: course
         valueFrom:
           configMapKeyRef:
             name: devops-config
             key: course
-      - name: hello-pod-2
-        valueFrom:
+      - name: course
           configMapKeyRef:
             name: devops-config
             key : trainer 
