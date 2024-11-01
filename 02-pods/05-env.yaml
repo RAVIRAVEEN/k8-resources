@@ -12,7 +12,7 @@ spec:
      - name: DEMO_GREETING
        value: "Hello from the environment"
      - name: DEMO_FAREWELL
-        value: "Such a sweet sorrow"
+       value: "Such a sweet sorrow"
 # ---
 # apiVersion: v1
 # kind: Pod
