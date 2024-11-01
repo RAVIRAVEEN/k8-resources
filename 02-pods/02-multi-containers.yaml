@@ -7,8 +7,8 @@ spec:
    - name: nginx
      image: nginx 
      ports:
-     - containerPort: 80
-containers:
+      - containerPort: 80
+ containers:
    - name: almalinux
      image: almalinux:8
      command: [ "sleep", "300"]
