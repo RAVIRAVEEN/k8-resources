@@ -3,11 +3,11 @@ kind: pod
 metadata:
  name: labels-demo
  labels:
-  environment: dev
-  app: nginx 
+   environment: dev
+   app: nginx 
 spec:
   containers: 
-    - name: hello-pod
+    - name: labels-demo
       image: nginx
       ports:
          - containerPort: 80 
