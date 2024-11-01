@@ -9,11 +9,11 @@ spec:
       # here with this line port will not opened , just for information
     ports:
     - containerPort: 80
-    resources:
-      requests:
+      resources:
+        requests:
           memory: "64Mi"
           cpu: "250m"
-      limits:
+        limits:
           memory: "128Mi"
           cpu: "500m"
 
