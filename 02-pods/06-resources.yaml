@@ -9,7 +9,7 @@ spec:
       image: nginx
       # here with this line port will not opened , just for information
       ports:
-    - containerport: 80
+    - containerPort: 80
        resources:
          request:
           memory: "250mi"  
