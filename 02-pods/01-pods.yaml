@@ -4,8 +4,8 @@
   name: hello-pod
  spec:
    containers: 
-    - name: hello-pod
-      image: nginx
+   - name: hello-pod
+     image: nginx
       # here with this line port will not opened , just for information
-      ports:
-       - containerport: 80
+     ports:
+      - containerport: 80
