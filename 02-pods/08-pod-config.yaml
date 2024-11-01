@@ -7,7 +7,7 @@ spec:
   - name: hello-pod
     image: nginx
     ports:
-    - containerport: 80
+    - containerPort: 80
       env: 
       - name: values
         valueFrom:
