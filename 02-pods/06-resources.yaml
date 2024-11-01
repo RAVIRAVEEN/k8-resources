@@ -5,7 +5,7 @@ metadata:
  
 spec:
   containers: 
-    - name: hello-pod
+  - name: hello-pod
       image: nginx
       # here with this line port will not opened , just for information
       ports:
